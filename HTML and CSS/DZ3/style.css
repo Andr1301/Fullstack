@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('./fonts/Gilroy-Bold.woff2');
+}
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: url('./fonts/Gilroy-Semibold.woff2');
+}
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('./fonts/Gilroy-Medium.woff2');
+}
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('./fonts/Gilroy-Regular.woff2');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    background: none;
+    font-family: "Gilroy-Bold", "Gilroy-Medium", sans-serif;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+h1{
+    font-family: "Gilroy-Bold";
+    font-size: 60px;
+    line-height: 70.31px;
+    
+}
+
+p {
+    color: #888888;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+
+}
+
+
+nav a {
+    font-family: "Gilroy-Medium", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+
+.current_nav{
+    font-family: "Gilroy-SemiBold", sans-serif;
+    font-size: 14px;
+    color: #f25822;
+}
+
+.main_button {
+    border-radius: 50px;
+    padding: 15 36;
+    box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+    background: #f25822;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    line-height: 17.58px;
+    margin-right: 72;
+    cursor: pointer;
+    
+}
+
+.video{
+    font-weight: 400;
+    font-size: 15px;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1274px;
+    margin: 0 auto;
+}
+
+.main_page{
+    max-width: 589px;
+}
+
+.header{
+    height: 40px;
+    padding: 40 0;
+    margin-bottom: 84;
+}
+
+/* .top_nav{
+} */
+
+.main_content{
+    margin-bottom: 162;
+}
+
+.main_content h1{
+    margin-bottom: 17;
+}
+
+.main_content p{
+    margin-bottom: 37;
+}
